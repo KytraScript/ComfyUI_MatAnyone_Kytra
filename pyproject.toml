@@ -1,0 +1,15 @@
+[project]
+name = "matanyone_kytra"
+description = "This is a ComfyUI node for [a/MatAnyone](https://github.com/pq-yang/MatAnyone), a state-of-the-art video matting model that can remove backgrounds from videos using just a single mask for the first frame for enhanced/guided video matting."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.20.0", "opencv-python>=4.5.0", "Pillow>=9.0.0", "omegaconf>=2.1.0", "requests", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/KytraScript/ComfyUI_MatAnyone_Kytra"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_MatAnyone_Kytra"
+Icon = ""
